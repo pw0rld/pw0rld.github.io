@@ -1,7 +1,7 @@
 ---
 title: 'PHP-WebShell绕过污点分析'
 date: 2022-02-10
-permalink: /posts/2022/02/blog-post-4/
+permalink: /posts/2022/02/php-webshell/
 tags:
   - cool posts
   - old posts
@@ -373,14 +373,14 @@ print_r($acsii_array);
 随着软件分析技术的发展，DevSecOps不断推进，污点追踪从学术圈搬到工业界，它也许是抵抗入侵的一道十分有力的防御。有了这么一层强有力的防御，也要求我们攻击者要思考如何针对新的防御方法来bypass，本文中绕过污点分析，就要想方设法来让引擎把污点弄丢，从而达到绕过的目的。
 
 ## 参考
-[ctf-all-in-one 污点分析](https://firmianay.gitbooks.io/ctf-all-in-one/content/doc/5.5_taint_analysis.html )
-[SAST, DAST, IAST and RASP](https://www.softwaresecured.com/what-do-sast-dast-iast-and-rasp-mean-to-developers/)
-[洞态](https://dongtai.io/ )
-[side-channel-tutorial](https://github.com/jovanbulck/sgx-tutorial-space18 )
-[Fuzzification: Anti-Fuzzing Techniques](https://www.usenix.org/conference/usenixsecurity19/presentation/jung)
-[pop-master](https://www.anquanke.com/post/id/264231#h2-1 )
-[ast-explorer ](https://astexplorer.net/ )
-[洋葱Webshell检测实践与思考](https://security.tencent.com/index.php/blog/msg/152 )
-[伏魔计划](https://www.yuque.com/azeus/01/bh1rgi?spm=0.0.0.0.6PHqmO )
-[如何使用AST生成程序的控制流图（CFG）](https://www.zhihu.com/question/27730062)
-[收集的GitHub相关项目](https://github.com/stars/pw0rld/lists/bypass-webshell)​
+* [ctf-all-in-one 污点分析](https://firmianay.gitbooks.io/ctf-all-in-one/content/doc/5.5_taint_analysis.html )
+* [SAST, DAST, IAST and RASP](https://www.softwaresecured.com/what-do-sast-dast-iast-and-rasp-mean-to-developers/)
+* [洞态](https://dongtai.io/ )
+* [side-channel-tutorial](https://github.com/jovanbulck/sgx-tutorial-space18 )
+* [Fuzzification: Anti-Fuzzing Techniques](https://www.usenix.org/conference/usenixsecurity19/presentation/jung)
+* [pop-master](https://www.anquanke.com/post/id/264231#h2-1 )
+* [ast-explorer ](https://astexplorer.net/ )
+* [洋葱Webshell检测实践与思考](https://security.tencent.com/index.php/blog/msg/152 )
+* [伏魔计划](https://www.yuque.com/azeus/01/bh1rgi?spm=0.0.0.0.6PHqmO )
+* [如何使用AST生成程序的控制流图（CFG）](https://www.zhihu.com/question/27730062)
+* [收集的GitHub相关项目](https://github.com/stars/pw0rld/lists/bypass-webshell)​
