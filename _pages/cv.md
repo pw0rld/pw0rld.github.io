@@ -24,7 +24,7 @@ Research Interest
 
 Work experience
 ======
-* Aug. 2021 - Now : ****Research Assistant** of Teecertlab
+* Aug. 2021 - Now : **Research Assistant** of Teecertlab
   * Southern University of Science and Technology (SusTech).
   * Duties included: Research in Confidential Computing and Security Analysis for Teecertlab.  
   * Supervisor: [Yinqian Zhang](https://yinqian.org/)
