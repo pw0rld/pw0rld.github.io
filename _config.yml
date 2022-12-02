@@ -55,6 +55,10 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
+
+#Google Analytics
+google_analytics: G-JZL3R7D6NN  # your google analytics
+
 # Social Sharing
 twitter:
   username               : &twitter
