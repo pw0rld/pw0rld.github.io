@@ -29,18 +29,6 @@ Work experience
   * Duties included: Research in Confidential Computing and Security Analysis for Teecertlab.  
   * Supervisor: [Yinqian Zhang](https://yinqian.org/)
 
-* Feb. 2021 - Aug. 2021: **Red Team**
-  * 暗泉信息技术有限公司
-  * Duties included: Develop original exploit code, bypass Anti-Virus.
-
-* Jun. 2019 - Aug. 2019: **Security Engineer (Internship)**
-  * Xi'an Clover Cyber Technology Co.Ltd.(西安四叶草安全)
-  * Duties included: Responsible for the company's penetration testing of customer services, writing penetration reports, and helping customers fix vulnerabilities.
-
-* Feb. 2018 - Aug. 2020: **Safety Operations \& Maintenance Team member in school lab(Part-time)**
-  * Xi'an University of Posts and Telecommunications(Xupt) Information Centre Lab
-  * Duties included: Responsible for college-level virtualisation security operations and emergency response.
-
 
 <!-- CTF-Award
 ======
