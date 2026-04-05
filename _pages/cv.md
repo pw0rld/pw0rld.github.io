@@ -16,7 +16,7 @@ Education
 
 Research Interest
 ======
-* System Security/Distributed System/Tee System/
+* System Security/Distributed System/Tee System/Web3/
 * Software Analysis/Software Security/Fuzzing/Program Analysis
 
 
@@ -24,7 +24,10 @@ Research Interest
 
 Work experience
 ======
-* Aug. 2021 - Now : **Research Assistant** of Teecertlab
+* Current : **Teenet**
+  * Working on **TEE + Web3**.
+  * X/Twitter: [@teenet_io](https://x.com/teenet_io).
+* Previous : **Research Assistant** of Teecertlab
   * Southern University of Science and Technology (SusTech).
   * Duties included: Research in Confidential Computing and Security Analysis for Teecertlab.  
   * Supervisor: [Yinqian Zhang](https://yinqian.org/)
@@ -43,7 +46,7 @@ Work experience
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   

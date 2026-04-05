@@ -1,0 +1,253 @@
+/* ==========================================================================
+   HOMEPAGE
+   ========================================================================== */
+
+.masthead {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(14px);
+}
+
+.masthead__menu-home-item a {
+  color: #0f172a;
+}
+
+.page__content .home-page {
+  color: #243b53;
+}
+
+.page__content .home-anchor {
+  display: block;
+  position: relative;
+  top: -5.5rem;
+  visibility: hidden;
+}
+
+.page__content .home-page p,
+.page__content .home-page li {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.page__content .home-page > p {
+  margin-bottom: 1.1rem;
+}
+
+.page__content .home-page h1 {
+  margin-top: 2.25rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.6rem;
+  color: #102a43;
+  border-bottom: 1px solid #d9e2ec;
+}
+
+.page__content .home-page ul {
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.home-pubs {
+  display: grid;
+  gap: 1rem;
+}
+
+.home-pub {
+  padding: 1.15rem 1.2rem;
+  border: 1px solid #d9e2ec;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+}
+
+.home-pub__title {
+  margin: 0 0 0.35rem;
+  font-size: 1.2rem;
+  line-height: 1.45;
+}
+
+.home-pub__title a {
+  color: #102a43;
+  text-decoration: none;
+}
+
+.home-pub__title a:hover {
+  color: #0f766e;
+  text-decoration: none;
+}
+
+.home-pub__authors,
+.home-pub__meta,
+.home-pub__excerpt {
+  margin: 0 0 0.45rem;
+}
+
+.home-pub__authors {
+  color: #334e68;
+}
+
+.home-pub__meta {
+  color: #486581;
+}
+
+.home-pub__excerpt {
+  color: #52606d;
+}
+
+.home-pub__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.85rem;
+}
+
+.home-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: #0f766e;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.home-pill:hover {
+  background: #115e59;
+  color: #ffffff;
+}
+
+.home-pill--ghost {
+  border-color: #cbd5e1;
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.home-pill--ghost:hover {
+  border-color: #0f766e;
+  background: #f0fdfa;
+  color: #0f766e;
+}
+
+.profile_box {
+  padding: 1rem;
+  border: 1px solid #d9e2ec;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.06);
+}
+
+.profile_box .author__avatar {
+  display: block;
+  width: auto;
+}
+
+.profile_box .author__avatar img {
+  max-width: 100%;
+  border: 0;
+  border-radius: 18px;
+  padding: 0;
+}
+
+.profile_box .author__content,
+.profile_box .author__urls-wrapper {
+  display: block;
+  padding: 0;
+}
+
+.profile_box .author__content {
+  margin-top: 1rem;
+}
+
+.profile_box .author__name {
+  font-size: 1.35rem;
+  color: #0f172a;
+}
+
+.profile_box .author__bio {
+  margin-top: 0.4rem;
+  color: #52606d;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.profile__interests {
+  margin: 1rem 0 1.15rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.profile__interests-title {
+  margin-bottom: 0.45rem;
+  color: #334e68;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.profile__interests-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.profile__interests-list li {
+  margin-bottom: 0.1rem;
+}
+
+.profile_box .author__urls {
+  display: block;
+  position: relative;
+  right: auto;
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.profile_box .author__urls li {
+  margin-bottom: 0.4rem;
+  white-space: normal;
+}
+
+.author__urls_sm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.author__urls_sm a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #0f766e;
+  text-decoration: none;
+}
+
+.author__urls_sm a:hover {
+  background: #0f766e;
+  color: #ffffff;
+}
+
+@include breakpoint(max-width $large) {
+  .masthead {
+    position: relative;
+    backdrop-filter: none;
+  }
+
+  .page__content .home-anchor {
+    top: -1rem;
+  }
+}
