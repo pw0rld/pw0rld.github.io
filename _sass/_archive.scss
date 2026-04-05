@@ -66,6 +66,20 @@
   }
 }
 
+.archive__item-authors,
+.archive__item-venue {
+  margin-bottom: 0.35rem;
+}
+
+.archive__item-links {
+  margin-top: 0.6rem;
+}
+
+.archive__item-links a {
+  margin-right: 0.9rem;
+  white-space: nowrap;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
